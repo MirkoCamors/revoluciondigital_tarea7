@@ -2,7 +2,7 @@
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(9, 170px);
+        grid-template-rows: repeat(3, 200px);
         background:#fff;
         gap: 10px;
     }
@@ -15,30 +15,13 @@
     .item-3 {
         background-color: blueviolet;
     }
-    .item-4 {
-        background-color: brown;
-    }
-    .item-5 {
-        background-color: burlywood;
-    }
-    .item-6 {
-        background-color: cadetblue;
-    }
-    .item-7 {
-        background-color: chartreuse;
-    }
-    .item-8 {
-        background-color: chocolate;
-    }
-    .item-9 {
-        background-color: coral;
-    }
+    
 }
 @media only screen and (min-width:321px) and (max-width: 768px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 190px);
+        grid-template-rows: repeat(3, 190px);
         background-color:#fff;
         gap: 10px;
     }
@@ -59,15 +42,6 @@
     }
     .item-6 {
         background-color:darkcyan;
-    }
-    .item-7 {
-        background-color: darkgoldenrod;
-    }
-    .item-8 {
-        background-color: darkgray;
-    }
-    .item-9 {
-        background-color: darkgreen;
     }
 }
 @media only screen and (min-width:769px) {
